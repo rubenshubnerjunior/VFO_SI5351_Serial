@@ -14,11 +14,11 @@
 - Programa Termite da CompuPhase.
 - HDSDR via Omnirig, neste caso mudando a frequência no programa HDSDR a frequência do VFO acompanha automaticamente.
 ## Uso do terminal Monitor Serial do Arduino.
-- Veja no gerenciador de dispositivo qual a porta Com utilizada pelo arduino.
+- Veja no gerenciador de dispositivos qual a porta *Com* utilizada pelo arduino.
 - Seguir as configurações conforme a imagem:
 - ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/Serial_Monitor.jpg)
 ## Uso do terminal Termite:
-- Veja no gerenciador de dispositivo qual a porta Com utilizada pelo arduino.
+- Veja no gerenciador de dispositivos qual a porta *Com* utilizada pelo arduino.
 - Seguir as configurações conforme a imagem:
 - ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/termite.jpg)
 
@@ -26,7 +26,7 @@
 - Instalar o HDSDR.
 - Instalar o Omni-Rig V.2.
 - Copiar o arquivo MYSDR.ini para a pasta %APPDATA%\Afreet\Rigs
--  Veja no gerenciador de dispositivo qual a porta Com utilizada pelo arduino.
+-  Veja no gerenciador de dispositivos qual a porta *Com* utilizada pelo arduino.
 -  Na aba options do HDSDR ajustar o HDSDR e Omni-Rig conforme imagem abaixo:
 -  ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/HDSDR_1.jpg)
 
