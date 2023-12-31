@@ -12,7 +12,7 @@
 #### Pode-se gerar a String de comando com terminais, por exemplo:
 - Monitor Serial do arduino.
 - Programa Termite da CompuPhase.
-- HDSDR via Omnirig, neste caso a seleção de frequência no programa HDSDR ajusta a frequência do VFO automaticamente.
+- HDSDR via Omnirig, neste caso mudando a frequência no programa HDSDR a frequência do VFO muda automaticamente.
 ## Uso do terminal Monitor Serial do Arduino.
 -- Seguir as configurações conforme a imagem:
 
