@@ -18,7 +18,7 @@
 
 ## Uso do terminal Termite:
 - Seguir as configurações conforme a imagem:
-- ![alt text](path/to/file)
+- ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/termite.jpg)
 
 ## Uso do HDSDR para comandar a frequência do VFO.
 - Instalar o HDSDR.
