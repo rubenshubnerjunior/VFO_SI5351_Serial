@@ -25,5 +25,5 @@
 - Instalar o Omni-Rig V.2.
 - Copiar o arquivo MYSDR.ini para a pasta %APPDATA%\Afreet\Rigs
 - Ajustar o Omnirig e o HDSDR conforme a imagem.
-- - ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/termite.jpg)
+- - ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/HDSDR_1.jpg)
 
