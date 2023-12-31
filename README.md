@@ -17,7 +17,7 @@ b)Programa Termite da CompuPhase.
 c)HDSDR via Omnirig, neste caso a seleção de frequência no programa HDSDR ajusta a frequência do VFO automaticamente.
 
 
-Uso do HDSDR para comandar a frequência do VFO.
+# Uso do HDSDR para comandar a frequência do VFO.
 
 Instalar o Omniriv V.2
 Copiar o arquivo MYSDR para a pasta %APPDATA%\Afreet\Rigs
