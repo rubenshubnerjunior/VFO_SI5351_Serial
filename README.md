@@ -15,7 +15,7 @@
 - HDSDR via Omnirig, neste caso mudando a frequência no programa HDSDR a frequência do VFO acompanha automaticamente.
 ## Uso do terminal Monitor Serial do Arduino.
 - Seguir as configurações conforme a imagem:
-- ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/termite.jpg)
+- ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/Serial_Monitor.jpg)
 ## Uso do terminal Termite:
 - Seguir as configurações conforme a imagem:
 - ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/termite.jpg)
