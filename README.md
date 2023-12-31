@@ -11,7 +11,8 @@ A saida do módulo termos dois clocks em quadratura
 A banda foi limitada entre 3 Mhz a 30 Mhz.
 A porta Serial está configurada para 115200 bauds.
 Pode-se gerar a String de comando com terminais, por exemplo:
---Monitor Serial do arduino.
---Programa Termite da CompuPhase.
---HDSDR via Omnirig, neste caso a seleção de frequência no programa HDSDR ajusta a frequência do VFO automaticamente. 
+
+a)Monitor Serial do arduino.
+b)Programa Termite da CompuPhase.
+c)HDSDR via Omnirig, neste caso a seleção de frequência no programa HDSDR ajusta a frequência do VFO automaticamente. 
 
