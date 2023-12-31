@@ -35,7 +35,8 @@
 -  ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/geral.jpg)
 
 ## Sobre o Sketch usado no arduino
-- A principal biblioteca si5351.h da etherkit:
-- https://github.com/etherkit/Si5351Arduino
+- A principal biblioteca si5351.h da etherkit  https://github.com/etherkit/Si5351Arduino
+- Para conseguir dois clocks em quadratura é sugerido:
+- Ajustar o PLL manualmente  *si5351.set_freq_manual(freq * 100ULL, pll_freq * 100ULL, SI5351_CLK0);*
 
 
