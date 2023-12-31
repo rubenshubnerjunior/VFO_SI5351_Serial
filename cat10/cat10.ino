@@ -2,7 +2,6 @@
 
 #include <Wire.h>                          // Comunicacao I2C com o SI5351
 #include "si5351.h"                        // Si5351 library
-#include <SoftwareSerial.h>
 #include <LiquidCrystal_I2C.h>             // LCD library
 
 
@@ -44,7 +43,7 @@ void leSerial()
 }
 
 
-//===========Ajusta valor da frequencia do  PLL e multiplicador=============
+//===========Ajusta valor da frequencia do PLL e do multiplicador=============
 void GetPLLFreq() {
 
   uint32_t f_pll_freq;
