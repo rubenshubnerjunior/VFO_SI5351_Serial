@@ -8,7 +8,7 @@
 - CLK0-->0º 
 - CLK1--> 90º.
 #### A banda foi limitada entre 3 Mhz a 30 Mhz.
-#### A porta Serial está configurada para 115200 bauds.
+#### A porta Serial está configurada para 115200 bauds e terminada com NL.
 #### Pode-se gerar a String de comando com terminais, por exemplo:
 - Monitor Serial do arduino.
 - Programa Termite da CompuPhase.
