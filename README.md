@@ -34,3 +34,7 @@
   ## Testes.
 -  ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/geral.jpg)
 
+## Sobre o Sketch usado no arduino
+- Usado a biblioteca si5351.h da etherkit   https://github.com/etherkit/Si5351Arduino
+
+
