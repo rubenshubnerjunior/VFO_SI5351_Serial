@@ -32,5 +32,5 @@
 ## Montagem no protoboard para testes.
 -  ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/protoboard.jpg)
   ## Testes.
--  ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/protoboard.jpg)
+-  ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/geral.jpg)
 
