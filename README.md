@@ -40,5 +40,6 @@
 - Ajustar o PLL manualmente  *si5351.set_freq_manual(freq * 100ULL, pll_freq * 100ULL, SI5351_CLK0);*
 - Ajustar o PLL para um multiplo par da frequência desejada e que fique entre 600 a 900 Mhz.
 - Usar as variaveis numericas uint32_t e converter para ULL em centesimos de HZ na chamada da função (*100ULL).
+- No LCD será mostrado a frequência de saida a frequência do PLL e o Multiplicador *(freq*multiplicador = frequencia do PLL).*
 
 
