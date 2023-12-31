@@ -18,6 +18,7 @@
 
 ## Uso do terminal Termite:
 - Seguir as configurações conforme a imagem:
+- ![alt text](path/to/file)
 
 ## Uso do HDSDR para comandar a frequência do VFO.
 - Instalar o HDSDR.
