@@ -30,6 +30,6 @@
 -  Na aba options do HDSDR ajustar o HDSDR e Omni-Rig conforme imagem abaixo:
 -  ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/HDSDR_1.jpg)
 ## Montagem no protoboard para testes.
--  ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/HDSDR_1.jpg)
+-  ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/protoboard.jpg)
   
 
