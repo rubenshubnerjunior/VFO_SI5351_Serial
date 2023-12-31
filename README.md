@@ -14,7 +14,11 @@
 - Monitor Serial do arduino.
 - Programa Termite da CompuPhase.
 - HDSDR via Omnirig, neste caso a seleção de frequência no programa HDSDR ajusta a frequência do VFO automaticamente.
+## Uso do terminal Monitor Serial do Arduino.
+-- Seguir as configurações conforme a imagem:
 
+## Uso do terminal Termite:
+-- Seguir as configurações conforme a imagem:
 
 ## Uso do HDSDR para comandar a frequência do VFO.
 - Instalar o HDSDR.
