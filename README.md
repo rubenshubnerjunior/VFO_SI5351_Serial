@@ -1,5 +1,5 @@
 
-#h1 Objetivo gerar frequência em quadratura para testes de SDR:
+# Objetivo gerar frequência em quadratura para testes de SDR:
 
 Comanda o modulo SI5351 com o arduino através do protocolo I2C.
 O arduino nano recebe via porta serial a 
