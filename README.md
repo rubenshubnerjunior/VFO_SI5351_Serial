@@ -4,7 +4,7 @@
 #### Comanda o modulo SI5351 com o arduino através do protocolo I2C.
 #### O arduino nano recebe via porta serial a String no formato:   *freq,3000000*
 #### Após a virgula informar a frequência desejada em Hz.
-#### A saida do módulo termos dois clocks em quadratura:
+#### A saida do módulo temos dois clocks em quadratura:
 - CLK0-->0º 
 - CLK1--> 90º.
 #### A banda foi limitada entre 3 Mhz a 30 Mhz.
