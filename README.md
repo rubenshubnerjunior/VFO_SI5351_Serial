@@ -1,5 +1,5 @@
 
-## Objetivo gerar sinais em quadratura para testes de SDR:
+## Objetivo gerar sinais (VFO) em quadratura para testes de SDR:
 
 #### Comanda o modulo SI5351 com o arduino através do protocolo I2C.
 #### O arduino nano recebe via porta serial a String:   *freq,3000000*
