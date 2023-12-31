@@ -17,7 +17,7 @@
 -- Seguir as configurações conforme a imagem:
 
 ## Uso do terminal Termite:
--- Seguir as configurações conforme a imagem:
+- Seguir as configurações conforme a imagem:
 
 ## Uso do HDSDR para comandar a frequência do VFO.
 - Instalar o HDSDR.
