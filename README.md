@@ -1,5 +1,5 @@
 
-# Objetivo gerar frequência em quadratura para testes de SDR:
+## Objetivo gerar frequência em quadratura para testes de SDR:
 
 #### Comanda o modulo SI5351 com o arduino através do protocolo I2C.
 #### O arduino nano recebe via porta serial a  String-->freq,3000000
@@ -16,9 +16,9 @@
 - HDSDR via Omnirig, neste caso a seleção de frequência no programa HDSDR ajusta a frequência do VFO automaticamente.
 
 
-# Uso do HDSDR para comandar a frequência do VFO.
+## Uso do HDSDR para comandar a frequência do VFO.
 - Instalar o HDSDR.
-- Instalar o Omniriv V.2.
+- Instalar o Omni-rig V.2.
 - Copiar o arquivo MYSDR para a pasta %APPDATA%\Afreet\Rigs
 - Ajustar o Omnirig e o HDSDR conforme a imagem.
 
