@@ -41,7 +41,8 @@
 - Ajustar o PLL para um multiplo par da frequência desejada e que fique entre 600 e 900 Mhz.
 - Usar as variaveis numericas uint32_t e converter para ULL em centesimos de HZ na chamada da função (*100ULL).
 - No LCD será mostrado a frequência de saida a frequência do PLL e o Multiplicador *(freq_saida x multiplicador = frequencia do PLL).*
+- O código está bem comentado e é possiver usar na IDE do arduino.
 ## Links que serviram como ótimas referências:
--  Para conexao do HDSDR com o Arduino                https://github.com/michalin/easysdr
--  Para gerar a frequencia do PLL e o Multiplicador   https://awsh.org/si5351-quadrature
+-  Para conexão do HDSDR com o Arduino                          https://github.com/michalin/easysdr
+-  Para gerar a frequencia do PLL e o valor do  Multiplicador   https://awsh.org/si5351-quadrature
 
