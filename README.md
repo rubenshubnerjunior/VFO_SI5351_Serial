@@ -27,6 +27,6 @@
 - Instalar o Omni-Rig V.2.
 - Copiar o arquivo MYSDR.ini para a pasta %APPDATA%\Afreet\Rigs
 -  Veja no gerenciador de dispositivo qual a porta Com utilizada pelo arduino.
-- Ajustar o Omnirig e o HDSDR conforme a imagem.
+-  Na aba options do HDSDR ajustar o HDSDR e Omni-Rig conforme imagem abaixo:
 -  ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/HDSDR_1.jpg)
 
