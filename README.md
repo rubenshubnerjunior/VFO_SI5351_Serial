@@ -17,8 +17,8 @@
 
 
 # Uso do HDSDR para comandar a frequência do VFO.
-
-Instalar o Omniriv V.2
-Copiar o arquivo MYSDR para a pasta %APPDATA%\Afreet\Rigs
-Ajustar o Omnirig e o HDSDR conforme a imagem.
+- Instalar o HDSDR.
+- Instalar o Omniriv V.2.
+- Copiar o arquivo MYSDR para a pasta %APPDATA%\Afreet\Rigs
+- Ajustar o Omnirig e o HDSDR conforme a imagem.
 
