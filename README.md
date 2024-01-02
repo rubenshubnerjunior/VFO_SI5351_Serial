@@ -29,6 +29,7 @@
 -  Veja no gerenciador de dispositivos qual a porta *Com* utilizada pelo arduino.
 -  Na aba options do HDSDR ajustar o HDSDR e Omni-Rig conforme imagem abaixo:
 -  ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/HDSDR_1.jpg)
+-  Obs: Pode-se optar pela frequencia do LO ao invés da frequência do Tune.
 ## Montagem no protoboard para testes.
 -  ![alt text](https://github.com/rubenshubnerjunior/VFO_SI5351_Serial/blob/main/Fotos/protoboard.jpg)
   ## Testes.
