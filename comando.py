@@ -20,16 +20,22 @@ def limpar():
 
 def hz():
     valorDig= inDig.get()
+    fHz=float(valorDig)
+    print("Hz:",fHz)
 
 def khz():
     valorDig= inDig.get()
+    fKHz=float(valorDig)
+    fKHz=fKHz*1000
+    print("Hz:",fKHz)
 
 def mhz():
     valorDig= inDig.get()
-    
+    valorDig= inDig.get()
+    fMHz=float(valorDig)
+    fMHz=fMHz*1000000
+    print("Hz:",fMHz)
    
-
-
 
 janela.title('Ajusta VFO')
 
