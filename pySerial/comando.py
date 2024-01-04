@@ -11,6 +11,8 @@ janela = Tk()
 
 
 
+
+
 def concatenar(elemento): # Concatena valores digitatos nos botoes
 
     equacao = inDig.get() # Leitura do campo texto
@@ -38,22 +40,25 @@ def mhz():
     fMHz=float(valorDig) # conversao para float
     fMHz=fMHz*1000000 # escala Mhz para Hz
     intMhz=int(fMHz) # desconsidera a casa decimal
-    serialCom("FREQ,"+str(intMhz))
+    serialCom("FREQ,"+ str(intMhz))
 
 def serialCom(msg):
     print(msg)
-    porta= portaSerial.get()
-    #SerialObj = serial.Serial(porta)
-    #SerialObj.baudrate = 115200 # set Baud rate to 115200
-    #SerialObj.bytesize = 8   # Number of data bits = 8
-    #SerialObj.parity  ='N'   # No parity
-    #SerialObj.stopbits = 1   # Number of Stop bits = 1
-    #time.sleep(3)
+   
+   
+def abreSerial():
+    com = portaSerial.get() # Porta Com digitado no campo texto
+    arduino = serial.Serial(com, 115200)
+    
+    
+ 
+    
 
-    #SerialObj.close()      # Close the port
+  
 
 
 janela.title('Ajusta VFO SI5351')
+
 
 fonte="Helvetica 10 bold"
 
