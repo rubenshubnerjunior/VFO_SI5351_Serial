@@ -41,21 +41,21 @@ fonte="Helvetica 10 bold"
 
 #=======================Elementos da GUI=========================================
 
-bt0 =       Button(janela,font=fonte,padx=30,pady=20, text = '0', command=lambda:concatenar("0")) # lambda para passar paramentro para a funcao
-bt1 =       Button(janela,font=fonte,padx=30,pady=20, text = '1', command=lambda:concatenar("1")) # lambda para passar paramentro para a funcao
-bt2 =       Button(janela,font=fonte,padx=30,pady=20, text = '2', command=lambda:concatenar("2")) # lambda para passar paramentro para a funcao
-bt3 =       Button(janela,font=fonte,padx=30,pady=20, text = '3', command=lambda:concatenar("3")) # lambda para passar paramentro para a funcao
-bt4 =       Button(janela,font=fonte,padx=30,pady=20, text = '4', command=lambda:concatenar("4")) # lambda para passar paramentro para a funcao
-bt5 =       Button(janela,font=fonte,padx=30,pady=20, text = '5', command=lambda:concatenar("5")) # lambda para passar paramentro para a funcao
-bt6 =       Button(janela,font=fonte,padx=30,pady=20, text = '6', command=lambda:concatenar("6")) # lambda para passar paramentro para a funcao
-bt7 =       Button(janela,font=fonte,padx=30,pady=20, text = '7', command=lambda:concatenar("7")) # lambda para passar paramentro para a funcao
-bt8 =       Button(janela,font=fonte,padx=30,pady=20, text = '8', command=lambda:concatenar("8")) # lambda para passar paramentro para a funcao
-bt9 =       Button(janela,font=fonte,padx=30,pady=20, text = '9', command=lambda:concatenar("9")) # lambda para passar paramentro para a funcao
-btVirg =    Button(janela,font=fonte,padx=30,pady=20, text = ',', command=lambda:concatenar(".")) # lambda para passar paramentro para a funcao
-btHz =      Button(janela,font=fonte,padx=30,pady=20, text = 'Hz',command = hz) # chamada da funcao sem passar paramentro
-btKhz =     Button(janela,font=fonte,padx=30,pady=20, text = 'Khz',command = khz) # chamada da funcao sem passar paramentro
-btMhz =     Button(janela,font=fonte,padx=30,pady=20, text = 'Mhz',command = mhz) # chamada da funcao sem passar paramentro
-btLimpar =  Button(janela,font=fonte,padx=30,pady=20, text = 'Limpar', command = limpar) # chamada da funcao sem passar paramentro
+bt0 =       Button(janela,font=fonte,padx=50,pady=20, text = '0', command=lambda:concatenar("0")) # lambda para passar paramentro para a funcao
+bt1 =       Button(janela,font=fonte,padx=50,pady=20, text = '1', command=lambda:concatenar("1")) # lambda para passar paramentro para a funcao
+bt2 =       Button(janela,font=fonte,padx=50,pady=20, text = '2', command=lambda:concatenar("2")) # lambda para passar paramentro para a funcao
+bt3 =       Button(janela,font=fonte,padx=50,pady=20, text = '3', command=lambda:concatenar("3")) # lambda para passar paramentro para a funcao
+bt4 =       Button(janela,font=fonte,padx=50,pady=20, text = '4', command=lambda:concatenar("4")) # lambda para passar paramentro para a funcao
+bt5 =       Button(janela,font=fonte,padx=50,pady=20, text = '5', command=lambda:concatenar("5")) # lambda para passar paramentro para a funcao
+bt6 =       Button(janela,font=fonte,padx=50,pady=20, text = '6', command=lambda:concatenar("6")) # lambda para passar paramentro para a funcao
+bt7 =       Button(janela,font=fonte,padx=50,pady=20, text = '7', command=lambda:concatenar("7")) # lambda para passar paramentro para a funcao
+bt8 =       Button(janela,font=fonte,padx=50,pady=20, text = '8', command=lambda:concatenar("8")) # lambda para passar paramentro para a funcao
+bt9 =       Button(janela,font=fonte,padx=50,pady=20, text = '9', command=lambda:concatenar("9")) # lambda para passar paramentro para a funcao
+btVirg =    Button(janela,font=fonte,padx=50,pady=20, text = ',', command=lambda:concatenar(".")) # lambda para passar paramentro para a funcao
+btHz =      Button(janela,font=fonte,padx=50,pady=20, text = 'Hz',command = hz) # chamada da funcao sem passar paramentro
+btKhz =     Button(janela,font=fonte,padx=50,pady=20, text = 'Khz',command = khz) # chamada da funcao sem passar paramentro
+btMhz =     Button(janela,font=fonte,padx=50,pady=20, text = 'Mhz',command = mhz) # chamada da funcao sem passar paramentro
+btLimpar =  Button(janela,font=fonte,padx=50,pady=20, text = 'DEL', command = limpar) # chamada da funcao sem passar paramentro
 
 labelDig = Label(janela, font=fonte, text="Digitado:")
 inDig = Entry(janela,font=fonte,width=30)
@@ -84,7 +84,7 @@ btMhz.grid(row = 2, column = 3)
 
 bt0.grid(row = 3, column = 0)
 btVirg.grid(row = 3, column = 1)  # linha 3
-btLimpar.grid(row = 3, column =2)
+btLimpar.grid(row = 3, column =3)
 
 
 labelDig.grid(row = 4, column = 0)
@@ -94,7 +94,7 @@ labelPorta.grid(row = 5, column = 0)
 portaSerial.grid(row = 5, column = 1)  # linha 5
 
 
-janela.geometry("540x400")
+janela.geometry("630x400")
 janela.mainloop()
 
 janela.mainloop() 
