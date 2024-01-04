@@ -17,25 +17,27 @@ def limpar():
     inDig.delete(0,END) # Limpa o campo texto
 
 def hz():
-    valorDig= inDig.get()
-    fHz=float(valorDig)
-    print("Hz:",fHz)
+    valorDig= inDig.get() #Leitura do campo texto
+    fHz=float(valorDig) # conversao para float
+    intHz= int(fHz)  # desconsidera a casa decimal
+    print("Hz:",intHz)
 
 def khz():
-    valorDig= inDig.get()
-    fKHz=float(valorDig)
-    fKHz=fKHz*1000
-    print("Hz:",fKHz)
+    valorDig= inDig.get() #Leitura do campo texto
+    fKHz=float(valorDig) # conversao para float
+    fKHz=fKHz*1000 # escala Khz para Hz
+    intKhz=int(fKHz) # desconsidera a casa decimal
+    print("Hz:",intKhz)
 
 def mhz():
-    valorDig= inDig.get()
-    valorDig= inDig.get()
-    fMHz=float(valorDig)
-    fMHz=fMHz*1000000
-    print("Hz:",fMHz)
+    valorDig= inDig.get() #Leitura do campo texto
+    fMHz=float(valorDig) # conversao para float
+    fMHz=fMHz*1000000 # escala Mhz para Hz
+    intMhz=int(fMHz) # desconsidera a casa decimal
+    print("Hz:",intMhz)
    
 
-janela.title('Ajusta VFO')
+janela.title('Ajusta VFO SI5351')
 
 fonte="Helvetica 10 bold"
 
