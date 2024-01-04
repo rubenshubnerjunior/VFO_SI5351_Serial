@@ -105,11 +105,11 @@ btVirg.grid(row = 3, column = 1)  # linha 3
 btLimpar.grid(row = 3, column =2)
 
 
-labelDig.grid(row = 5, column = 0)
-inDig.grid(row = 5,    column = 1)  # linha 4
+labelDig.grid(row = 4, column = 0)
+inDig.grid(row = 4,    column = 1,pady=30)  # linha 4
 
-labelPorta.grid(row = 6, column = 0)
-portaSerial.grid(row = 6, column = 1)  # linha 5
+labelPorta.grid(row = 5, column = 0)
+portaSerial.grid(row = 5, column = 1)  # linha 5
 
 janela.configure(bg='WHITE')
 janela.geometry("580x400")
