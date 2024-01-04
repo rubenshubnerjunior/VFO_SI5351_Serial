@@ -59,6 +59,8 @@ inDig = Entry(janela,font=fonte_utilizada,width=30)
 labelPorta = Label(janela,font=fonte_utilizada, text="Porta Serial:")
 portaSerial = Entry(janela,font=fonte_utilizada,width=30)
 
+portaSerial.insert(0,"COM 1")
+
 
 #=============Colocando componentes na grid===============================
 bt7.grid(row = 0, column = 0)
