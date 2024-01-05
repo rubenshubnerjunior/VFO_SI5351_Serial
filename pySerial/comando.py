@@ -1,6 +1,6 @@
 
+# Ajusta a frequencia do VFO pela porta serial
 
-# Ainda nao estah terminado
 
 # C:\ python -m pip install pyserial
 
