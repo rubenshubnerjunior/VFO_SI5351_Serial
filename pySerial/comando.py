@@ -43,20 +43,24 @@ def mhz():
     serialCom("FREQ,"+ str(intMhz))
 
 def serialCom(msg):
+    msg = msg +"\n"
     print(msg)
-   
-   
+    abreSerial()
+
+
 def abreSerial():
+    
     com = portaSerial.get() # Porta Com digitado no campo texto
-    arduino = serial.Serial(com, 115200)
+    try:
+      global arduino
+      arduino = serial.Serial(com, 115200)
+      print(arduino)
+      time=1
+    except serial.SerialException:
+        print("Porta nao encontrada")
+        pass
+   
     
-    
- 
-    
-
-  
-
-
 janela.title('Ajusta VFO SI5351')
 
 
