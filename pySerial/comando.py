@@ -12,8 +12,9 @@ from tkinter import *
 
 janela = Tk()
 
-global open_serial
-open_serial=False
+open_serial = False
+arduino=""
+
 
 def concatenar(elemento): # Concatena valores digitatos nos botoes
 
@@ -45,6 +46,9 @@ def mhz():
     serialCom("FREQ,"+ str(intMhz))
 
 def serialCom(msg):
+    global open_serial
+    global arduino
+
     msg = msg +"\n"
     print(msg)
     if(open_serial==False): #Precisa confirmar se a porta está aberta
@@ -59,10 +63,10 @@ def serialCom(msg):
 
 
 def abreSerial():
-    
+    global open_serial
+    global arduino
     com = portaSerial.get() # Porta Com digitado no campo texto
     try:
-      global arduino
       arduino = serial.Serial(com, 115200)
       print(arduino)
       open_serial=True
