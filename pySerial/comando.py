@@ -45,7 +45,15 @@ def mhz():
 def serialCom(msg):
     msg = msg +"\n"
     print(msg)
-    abreSerial()
+
+    abreSerial() #Precisa confirmar se a porta está aberta
+    time.sleep(2)
+    try:
+       arduino.write(msg.encode())
+       print("Enviando...")
+    except:
+        print("nao enviou")
+        pass   
 
 
 def abreSerial():
@@ -55,7 +63,6 @@ def abreSerial():
       global arduino
       arduino = serial.Serial(com, 115200)
       print(arduino)
-      time=1
     except serial.SerialException:
         print("Porta nao encontrada")
         pass
