@@ -7,11 +7,13 @@
 import serial
 import time
 from tkinter import *
+
+
+
 janela = Tk()
 
-
-
-
+global open_serial
+open_serial=False
 
 def concatenar(elemento): # Concatena valores digitatos nos botoes
 
@@ -45,9 +47,9 @@ def mhz():
 def serialCom(msg):
     msg = msg +"\n"
     print(msg)
-
-    abreSerial() #Precisa confirmar se a porta está aberta
-    time.sleep(2)
+    if(open_serial==False): #Precisa confirmar se a porta está aberta
+        abreSerial() 
+        time.sleep(2)
     try:
        arduino.write(msg.encode())
        print("Enviando...")
@@ -63,8 +65,10 @@ def abreSerial():
       global arduino
       arduino = serial.Serial(com, 115200)
       print(arduino)
+      open_serial=True
     except serial.SerialException:
         print("Porta nao encontrada")
+        open_serial=False
         pass
    
     
