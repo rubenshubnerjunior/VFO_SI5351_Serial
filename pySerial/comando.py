@@ -1,8 +1,15 @@
 
+# Escrito por Rubens Hubner Junior em 07/01/2024
+
 # Ajusta a frequencia do VFO pela porta serial
+# Trabalha com o Sketch do arduino nano para controle do VFO SI5351
+# Abre a porta serial que esta sendo usada pelo arduino nano
+# Após a digitação gera a String no formato  "FREQ,3000000" e envia para a porta Serial
 
 
-# C:\ python -m pip install pyserial
+#  pip install pyserial ( para usar a porta serial)
+#  pip install pyinstaller ( para gerar arquivo .exe)
+#  pyinstaller --onefile -w comando.py
 
 import serial
 import time
