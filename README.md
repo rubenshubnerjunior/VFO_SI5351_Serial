@@ -46,4 +46,7 @@
 ## Links que serviram como ótimas referências:
 -  Para conexão do HDSDR com o Arduino                          https://github.com/michalin/easysdr
 -  Para gerar a frequencia do PLL e o valor do  Multiplicador   https://awsh.org/si5351-quadrature
+  ## Publicado por:
+  - Rubens Hubner Junior
+  - PY2 RHJ    ID:7245251
 
